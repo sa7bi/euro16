@@ -1,0 +1,27 @@
+{
+    "name": "sa7bi/euro16",
+    "description": "CLI Tool to keep you up to date with EURO-2016",
+    "keywords": ["laravel", "collection"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sahbi H. Belgacem",
+            "email": "sahbi.belgacem@protonmail.ch"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require": {
+        "symfony/console": "^3.1",
+        "guzzlehttp/guzzle": "^6.2",
+        "vlucas/phpdotenv": "^2.3",
+        "tightenco/collect": "^5.2",
+        "nesbot/carbon": "^1.21"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"sahbi\\": "src/"
+    	}
+    }
+}

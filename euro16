@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+require __DIR__.'/vendor/autoload.php';
+use Symfony\Component\Console\Application;
+use sahbi\FetchNextMatches;
+use sahbi\RankCommand;
+
+$app = new Application('euro16',1.0);
+$app->add(new FetchNextMatches());
+$app->add(new RankCommand());
+$app->run();
